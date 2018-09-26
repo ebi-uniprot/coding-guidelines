@@ -10,5 +10,5 @@ Coding guidelines for developers @uniport @embl-ebi
 ## Agile
 [Front-end agile](FrontEnd_agile.md)
 
-## Front-end specific
-[CSS naming](Css_naming.md)
+## Other
+[Front-end specific](FrontEnd_specific.md)
