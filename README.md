@@ -1,5 +1,4 @@
-# UniProt coding guidelines
-Coding guidelines for developers @uniprot @embl-ebi
+# UniProt coding guidelines & best practices
 
 ## Version control
 [Information about git flow, pull requests, application release, etc.](Version_control.md)
