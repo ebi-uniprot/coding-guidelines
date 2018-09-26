@@ -7,8 +7,8 @@ Coding guidelines for developers @uniprot @embl-ebi
 ## Code style
 [Javascript](Javascript_code_style.md)
 
-## Agile
-[Front-end agile](FrontEnd_agile.md)
-
 ## Naming
 [Front-end specific](FrontEnd_specific.md)
+
+## Agile
+[Front-end agile](FrontEnd_agile.md)
