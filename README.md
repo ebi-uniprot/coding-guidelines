@@ -8,7 +8,7 @@ Coding guidelines for developers @uniport @embl-ebi
 [Javascript](Javascript_code_style.md)
 
 ## Agile
-[Front-end agile](FrontEnd_Agile.md)
+[Front-end agile](FrontEnd_agile.md)
 
 ## Front-end specific
 [CSS naming](Css_naming.md)
