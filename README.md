@@ -1,4 +1,4 @@
-# coding-guidelines
+# UniProt coding guidelines
 Coding guidelines for developers @uniport @embl-ebi
 
 # Version control
