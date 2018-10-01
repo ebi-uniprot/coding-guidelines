@@ -1,5 +1,5 @@
 # Javascript code style
-Respecting code style means it's easier for other developpers to read your code.
+Respecting code style means it's easier for other developers to read your code.
 
 ## Linting
 We use [ESLint](https://eslint.org/) with the [Airbnb style guide](https://github.com/airbnb/javascript)
