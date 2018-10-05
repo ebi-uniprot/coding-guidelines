@@ -4,7 +4,7 @@ One golden rule: `master` should never break (compiles, tests pass, lints)
 Whenever you have to work on a feature, you should create a branch (if possible including the Jira issue in the branch name). Once the feature has been implemented, a pull request should be submitted (via GitHub). Please make sure that the code is adequately tested, the tests pass and the code style (lint) is respected. And don't forget, commit often, push at the end of the day!
 
 # Pull requests & code reviews
-Code reviews are there to ensure code quality, but also to disseminate knowledge amongst developers.
+Code reviews exist to ensure code quality, but also to disseminate knowledge amongst developers.
 
 ## Code review checklist:
 1. Make sure the formatting is correct and adheres to style rules (`eslint`)
