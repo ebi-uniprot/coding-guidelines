@@ -21,8 +21,11 @@ Code reviews exist to ensure code quality, but also to disseminate knowledge amo
 Once the code review is accepted, all the commits should be squashed and it should go into `master`. There's a nifty GitHub button which allows you to do that (ace!).
 
 # Release
-# GitHub release 
+## GitHub release 
 https://blog.github.com/2013-07-02-release-your-software/
+
+## Publishing to npm
+When publishing to npm, make sure you tag the last commit with the version number.
 
 # Hotfix
 A branch should be created, then when the fix is ready that same branch should be tagged with a minor release `x.x.1`. Don't forget to merge your branch into master. **TBD: What about PRs, and squash merge?**
