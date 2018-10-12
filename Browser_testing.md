@@ -18,7 +18,7 @@ These steps will make your development server available to all machines within t
     },
 ```
 2. Determine your machine's IP address:
-  a. Ethernet: ipconfig getifaddr en0
-  b. Wireless: ipconfig getifaddr en1 
+  - Ethernet: ipconfig getifaddr en0
+  - Wireless: ipconfig getifaddr en1 
 3. Login to a remote Windows session with Microsoft Remote Desktop
 4. Open IE11 and visit `http://{IP address from step 2}:{the port used by your development server}`
