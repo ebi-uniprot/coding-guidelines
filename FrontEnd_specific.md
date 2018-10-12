@@ -1,6 +1,9 @@
-# Front-end specific
+# Styling
 
 <img src="https://i.imgur.com/9qzBYbH.jpg" width="300">
+
+## Guidelines
+- use `rem` instead of `px`
 
 ## CSS naming
 We use the [BEM methodology](https://en.bem.info/methodology/).
