@@ -29,28 +29,3 @@ When publishing to npm, make sure you tag the last commit with the version numbe
 
 # Hotfix
 A branch should be created, then when the fix is ready that same branch should be tagged with a minor release `x.x.1`. Don't forget to merge your branch into master. **TBD: What about PRs, and squash merge?**
-
-# gh-pages
-Github pages is a great way to showcase an application. For this we use `git worktree`.
-
-## Initial setup
-```
-rm -rf build
-git worktree add build gh-pages
-yarn build
-cd build
-git add --all
-git commit -m 'initial gh-pages commit'
-git push origin gh-pages
-cd ..
-```
-
-## To update
-```
-yarn build
-cd build
-git add --all
-git commit -m 'initial gh-pages commit'
-git push origin gh-pages
-cd ..
-```
