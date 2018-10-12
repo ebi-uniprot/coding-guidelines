@@ -2,6 +2,7 @@
 
 ## Version control
 [Information about git flow, pull requests, application release, etc.](Version_control.md)
+
 [Continuous integration and demo application](ci-demo.md)
 
 ## Testing
