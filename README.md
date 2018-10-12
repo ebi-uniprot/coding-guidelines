@@ -10,7 +10,7 @@
 [Javascript](Javascript_code_style.md)
 
 ## Styling
-[Styling guidelines](FrontEnd_specific.md)
+[Styling guidelines](Styling.md)
 
 ## Agile
 [Front-end agile](FrontEnd_agile.md)
