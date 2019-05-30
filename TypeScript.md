@@ -3,7 +3,7 @@
 1. `PascalCase` for name<sup>1</sup>
 2. `camelCase` for members<sup>1</sup>
 3. Do not use an `I` prefix for interfaces.<sup>1</sup> Similarly, do not use a `Type` or `Interface` suffix to avoid conflicts with other entities (eg React components).
-4. Name files with camelCase<sup>1</sup>
+4. Name files with `camelCase`<sup>1</sup>
 5. If a file contains only types, interfaces or enums use `Type` as the suffix in the filename. Eg: `filenameType.ts`
 6. When a type's member is an array don't define the type of the array's elements inline - define this separately.
 
