@@ -5,7 +5,8 @@
 3. Do not use an `I` prefix for interfaces.<sup>1</sup> Similarly, do not use a `Type` or `Interface` suffix to avoid conflicts with other entities (eg React components).
 4. Name files with `camelCase`<sup>1</sup>
 5. If a file contains only types, interfaces or enums use `Type` as the suffix in the filename. Eg: `filenameType.ts`
-6. When a type's member is an array don't define the type of the array's elements inline - define this separately.
+6. Attempt to group types together into the same file as much as possible.
+7. When a type's member is an array don't define the type of the array's elements inline - define this separately.
 
 ###### Bad
 
@@ -26,7 +27,7 @@ type Position = {
 type Positions = Position[]
 ```
 
-7. Do not use plural enum names. More generally, only use plural names for entities which are arrays.
+8. Do not use plural enum names. More generally, only use plural names for entities which are arrays.
 
 ###### Bad
 
