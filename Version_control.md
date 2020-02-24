@@ -1,5 +1,8 @@
 One golden rule: `master` should never break (compiles, tests pass, lints)
 
+# Sprint goal branch
+Every sprint, we define a sprint goal and create a corresponding branch following the pattern `YYYY_sprint_number-sprint_goal`. During the sprint, we work off that branch, creating feature branches which get merged into the sprint goal branch throughout the sprint. At the end of the sprint, the Product Owner can decide to release the branch, which then gets merged into master.
+
 # Feature branch
 Whenever you have to work on a feature, you should create a branch (if possible including the Jira issue in the branch name). Once the feature has been implemented, a pull request should be submitted (via GitHub). Please make sure that the code is adequately tested, the tests pass and the code style (lint) is respected. And don't forget, commit often, push at the end of the day!
 
