@@ -1,6 +1,9 @@
 # Naming Style Guide
 
-## TypeScript
+## Variables
+
+### TypeScript
+
 1. `PascalCase` for name<sup>1</sup>
 2. `camelCase` for members<sup>1</sup>
 3. Do not use an `I` prefix for interfaces.<sup>1</sup> Similarly, do not use a `Type` or `Interface` suffix to avoid conflicts with other entities (eg React components).
@@ -51,16 +54,26 @@ enum Direction {
 }
 ```
 
-## General
-1. Name `ts|js|json` files with `camelCase`<sup>1</sup>. Name `tsx|jsx` files with `PascalCase.
+### General
 
-2. DO choose easily readable identifier names. For example, a property named HorizontalAlignment is more English-readable than AlignmentHorizontal. <sup>2</sup>
+1. DO choose easily readable identifier names. For example, a property named HorizontalAlignment is more English-readable than AlignmentHorizontal. <sup>2</sup>
 
-3. DO favor readability over brevity. The property name CanScrollHorizontally is better than ScrollableX (an obscure reference to the X-axis). <sup>2</sup>
+2. DO favor readability over brevity. The property name CanScrollHorizontally is better than ScrollableX (an obscure reference to the X-axis). <sup>2</sup>
 
-4. DO NOT use underscores, hyphens, or any other nonalphanumeric characters. <sup>2</sup>
+3. DO NOT use underscores, hyphens, or any other nonalphanumeric characters. <sup>2</sup>
 
-5. DO name classes and structs with nouns or noun phrases, using PascalCasing. This distinguishes type names from methods, which are named with verb phrases. <sup>3</sup>
+4. DO name classes and structs with nouns or noun phrases, using PascalCasing. This distinguishes type names from methods, which are named with verb phrases. <sup>3</sup>
+
+# Files & Directories
+
+| Extension/Type | Case                   |
+| -------------- | ---------------------- |
+| `j\|tsx`       | PascaleCase (with JSX) |
+| `j\|ts`        | camelCase (no JSX)     |
+| `json`         | camelCase              |
+| `s?css`        | kebab-case             |
+| `svg`          | kebab-case             |
+| directory      | kebab-case             |
 
 # References
 
