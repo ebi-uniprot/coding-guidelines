@@ -64,7 +64,7 @@ enum Direction {
 
 4. DO name classes and structs with nouns or noun phrases, using PascalCasing. This distinguishes type names from methods, which are named with verb phrases. <sup>3</sup>
 
-# Files & Directories
+## Files & Directories
 
 | Extension/Type | Case                   |
 | -------------- | ---------------------- |
@@ -75,7 +75,7 @@ enum Direction {
 | `svg`          | kebab-case             |
 | directory      | kebab-case             |
 
-# References
+## References
 
 1. https://github.com/basarat/typescript-book/blob/master/docs/styleguide/styleguide.md
 2. https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions
