@@ -1,7 +1,7 @@
-# Agile for front-end team
+# Agile process
 
-## Sprint review responsibilities
-Every sprint, a different team member is responsible for the sprint review.
+## Sprint review
+Every sprint, a different team member is responsible for the sprint review demo.
 
 ### Before and during the demo
 - collect and compile the list of completed tasks, towards the sprint goal, in a google doc. (this should be done or delegated by the PO a few days before the end of sprint)
