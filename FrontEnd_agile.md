@@ -10,4 +10,4 @@ Every sprint, a different team member is responsible for the sprint review demo.
 
 ### After the demo
  - merge goal branch into master (if agreed by the PO) and create the new sprint goal branch (see https://github.com/ebi-uniprot/coding-guidelines/blob/master/Version_control.md#sprint-goal-branch)
- - on the new sprint goal branch, update all dependencies, communicating with the rest of the team any braking changes while upgrading (to be put in backlog, or solved during new sprint)
+ - on the new sprint goal branch, update all dependencies, communicating with the rest of the team any breaking changes while upgrading (to be put in backlog, or solved during new sprint)
