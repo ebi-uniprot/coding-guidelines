@@ -5,7 +5,7 @@ on [uniprot-website](https://github.com/ebi-uniprot/uniprot-website)
 3. Update dependencies - if breaking change and requires too much effort, create a Jira instead
 4. Create a new sprint goal branch, following the `YYYY_sprintnumber` pattern
 
-# Details
+## Details
 * **Merge goal branch into master (if agreed by the PO)**
   Check to ensure all PRs from this sprint are merged into the sprint branch. Then get the latest sprint branch
   `git pull origin <sprint branch>`
