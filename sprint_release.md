@@ -38,8 +38,7 @@ If all looks OK then push to master
 `git push origin master`
 
 ### Upgrade UniProt's package dependencies and release the new UniProt sprint branch
-It is assumed you're on UniProt's master and have the current sprint merged in. To create the new branch where the sprint branch name format is YYYY_MM (see https://github.com/ebi-uniprot/coding-guidelines/blob/master/Version_control.md#sprint-goal-branch)
-`git checkout -b <new sprint branch>`
+It is assumed you're on UniProt's master and have the current sprint merged in. To create the new branch where the sprint branch name format is YYYY_MM `git checkout -b <new sprint branch>`
 
 Select all compatible upgrades and test
 ```
