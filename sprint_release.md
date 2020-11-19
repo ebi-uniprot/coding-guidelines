@@ -1,9 +1,12 @@
 # Sprint release procedure for [uniprot-website](https://github.com/ebi-uniprot/uniprot-website)
 1. Merge current sprint goal branch into master
 2. Tag a release on master, adding list of implemented features and bug fixes (compiled in sprint review doc)
+3. [Update and release Franklin](franklin_release.md)
 3. Create a new sprint goal branch, following the `YYYY_sprintnumber` pattern
-4. Update dependencies - if breaking change and requires too much effort, create a Jira instead
+4. Update dependencies, including Franklin - if breaking change and requires too much effort, create a Jira instead
 5. Update the coverage (see below)
+6. Push the new sprint branch to remote, and tell everyone it's ready 🎉
+
 
 ## Details
 ### Merge goal branch into master (if agreed by the PO)
