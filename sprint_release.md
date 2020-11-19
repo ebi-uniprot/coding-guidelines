@@ -67,6 +67,11 @@ yarn upgrade-interactive --latest
 yarn test
 ```
 
+Bump the test coverage as to define a new reference for the new sprint:
+```
+yarn coverage-bump
+```
+
 Check if anything has gone into master recently and if so, merge it in and test again
 ```
 git fetch
