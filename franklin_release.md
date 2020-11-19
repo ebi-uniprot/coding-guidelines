@@ -36,11 +36,17 @@ yarn test
 
 Sanity check by viewing some of the components.
 
+Bump the test coverage as to define a new reference for the new sprint:
+```
+yarn coverage-bump
+```
+
 ### Release Franklin
 ```
 git push
 yarn release
 ```
+
 ### Tag the release
 Tag the release with the relevant release notes https://github.com/ebi-uniprot/franklin-sites/releases
 - Draft a new release
