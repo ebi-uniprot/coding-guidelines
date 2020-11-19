@@ -7,6 +7,8 @@
 
 [Sprint release](sprint_release.md)
 
+[Franklin release](franklin_release.md)
+
 ## Testing
 [Browser testing](Browser_testing.md)
 
