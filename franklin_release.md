@@ -41,3 +41,8 @@ Sanity check by viewing some of the components.
 git push
 yarn release
 ```
+### Tag the release
+Tag the release with the relevant release notes https://github.com/ebi-uniprot/franklin-sites/releases
+- Draft a new release
+- Leave the release title empty
+- Write the list of new features/bug fixes
