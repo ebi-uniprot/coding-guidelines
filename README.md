@@ -5,6 +5,8 @@
 
 [Continuous integration and demo application](ci-demo.md)
 
+[Sprint release](sprint_release.md)
+
 ## Testing
 [Browser testing](Browser_testing.md)
 
