@@ -1,5 +1,8 @@
 One golden rule: `master` should never break (compiles, tests pass, lints)
 
+## Feature branch
+Whenever you have to work on a feature, you should create a branch from the sprint goal branch following the pattern `YYYY_sprintnumber-feature_name`. Once the feature has been implemented, a pull request should be submitted (via GitHub) to merge into the goal branch. Please make sure that the code is adequately tested, the tests pass and the code style (lint) is respected. And don't forget, commit often, push at the end of the day!
+
 # Pull requests & code reviews
 Code reviews exist to ensure code quality, but also to disseminate knowledge amongst developers.
 
