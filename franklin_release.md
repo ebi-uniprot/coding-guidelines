@@ -11,7 +11,7 @@ Franklin releases can happen at anything  point in time.
 
 Notes:
 * Communicate with the rest of the team any breaking changes while upgrading (to be put in backlog, or solved during new sprint)
-* he history package should remain on v4 as react-router v5 is relying on it. Also upgrading D3 to higher than v5 may break Nightingale. This applies to uniprot-website repository as well.
+* The history package should remain on v4 as react-router v5 is relying on it. Also upgrading D3 to higher than v5 may break Nightingale. This applies to the uniprot-website repository as well.
 * Upgrading packages may result in unusual babel or webpack related errors. In some cases deleting the yarn.lock file and regenerating it may help.
 
 
