@@ -1,5 +1,4 @@
-# Sprint release procedure
-on [uniprot-website](https://github.com/ebi-uniprot/uniprot-website)
+# Sprint release procedure for [uniprot-website](https://github.com/ebi-uniprot/uniprot-website)
 1. Merge current sprint goal branch into master
 2. Tag a release on master, adding list of implemented features and bug fixes (compiled in sprint review doc)
 3. Update dependencies - if breaking change and requires too much effort, create a Jira instead
@@ -12,7 +11,9 @@ Check to ensure all PRs from this sprint are merged into the sprint branch. Then
 `git pull origin <sprint branch>`
 
 Ensure tests are passing on the sprint branch
-`rm -rf node_modules; yarn; yarn test`
+```
+rm -rf node_modules; yarn; yarn test
+```
 
 Checkout master and pull the latest
 ```
@@ -21,10 +22,15 @@ git pull origin master
 ```
 
 Merge in the sprint branch
-`git merge <sprint branch>`
+```
+git merge <sprint branch>
+```
 
 Resolve any merge conflicts. Then reinstall `node_modules` and test
-`rm -rf node_modules; yarn; yarn test`
+```
+rm -rf node_modules; yarn; yarn test
+```
+
 For a sanity check access the following pages with the console visible:
   -   [http://localhost:8080/](http://localhost:8080/)
   -   [http://localhost:8080/uniprotkb/P05067](http://localhost:8080/uniprotkb/P05067)
@@ -35,10 +41,15 @@ For a sanity check access the following pages with the console visible:
   -   [http://localhost:8080/tool-dashboard](http://localhost:8080/tool-dashboard)
 
 If all looks OK then push to master
-`git push origin master`
+```
+git push origin master
+```
 
 ### Upgrade UniProt's package dependencies and release the new UniProt sprint branch
-It is assumed you're on UniProt's master and have the current sprint merged in. To create the new branch where the sprint branch name format is YYYY_MM `git checkout -b <new sprint branch>`
+It is assumed you're on UniProt's master and have the current sprint merged in. To create the new branch where the sprint branch name format is YYYY_MM 
+```
+git checkout -b <new sprint branch>
+```
 
 Select all compatible upgrades and test
 ```
@@ -62,7 +73,9 @@ rm -rf node_modules; yarn; yarn test
 ```
 
 Push to the remote
-`git push origin <new sprint branch>`
+```
+git push origin <new sprint branch>
+```
 
 Tag the release with the relevant release notes https://github.com/ebi-uniprot/uniprot-website/releases
 - Draft a new release
