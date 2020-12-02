@@ -1,7 +1,12 @@
 # Agile process
 
 ## Sprint review
-Every sprint, a different team member is responsible for the sprint review demo.
+Every sprint, a different team member is responsible for the sprint review demo. The current rota is:
+
+* [Daniel Rice](https://github.com/dlrice)
+* [Mahdi Mahmoudy](https://github.com/its-mahdi)
+* [Xavier Watkins](https://github.com/xwatkins)
+* [Aurélien Luciani](https://github.com/aurel-l)
 
 ### Before and during the demo
 - collect and compile the list of completed tasks, towards the sprint goal, in a google doc. (this should be done or delegated by the PO a few days before the end of sprint)
