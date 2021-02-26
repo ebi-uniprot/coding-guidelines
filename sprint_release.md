@@ -74,13 +74,12 @@ yarn test
 ### List of currently not updated dependencies
 | Name                | Version           | Reason                                        | Priority    |
 | ------------------- | ----------------- | --------------------------------------------- | ----------- |
-| d3                  | 5.16.0  ❯  6.5.0  | Braking changes imcompatible with Nightingale | Low         |
-| @types/d3           | 5.16.3  ❯  6.3.0  | Braking changes imcompatible with Nightingale | Low         |
+| d3                  | 5.16.0  ❯  6.5.0  | Breaking changes imcompatible with Nightingale| Low         |
+| @types/d3           | 5.16.3  ❯  6.3.0  | Breaking changes imcompatible with Nightingale| Low         |
 | history             | 4.10.1  ❯  5.0.0  | Needs proper testing, coordinate with franklin| Medium      |
 | html-loader         | 1.3.2   ❯  2.1.1  | Relies on webpack update                      | Low         |
 | html-webpack-plugin | 4.5.1   ❯  5.2.0  | Relies on webpack update                      | Low         |
-| sass-loader         | 10.1.1  ❯  11.0.1 | Incompatible with current React version       | Low         |
-| sass-loader         | 10.1.1  ❯  11.0.1 | Incompatible with current React version       | Low         |
+| sass-loader         | 10.1.1  ❯  11.0.1 | Incompatible with current Webpack version       | Low         |
 | typescript          | 4.1.5   ❯  4.2.2  | linting not supoorted for v>=4.2.0            | Low         |
 | webpack             | 4.44.2  ❯  5.24.2 | BIG change                                    | Medium      |
 | webpack-cli         | 3.3.12  ❯  4.5.0  | BIG change                                    | Medium      |
