@@ -77,7 +77,7 @@ yarn test
 | d3                  | 5.16.0  ❯  6.5.0  | Breaking changes imcompatible with Nightingale| Low         |
 | @types/d3           | 5.16.3  ❯  6.3.0  | Breaking changes imcompatible with Nightingale| Low         |
 | history             | 4.10.1  ❯  5.0.0  | Needs proper testing, coordinate with franklin| Medium      |
-| html-loader         | 1.3.2   ❯  2.1.1  | Relies on webpack update                      | Low         |
+| html-loader         | 1.3.2   ❯  2.1.2  | Relies on webpack update                      | Low         |
 | html-webpack-plugin | 4.5.1   ❯  5.2.0  | Relies on webpack update                      | Low         |
 | sass-loader         | 10.1.1  ❯  11.0.1 | Incompatible with current Webpack version     | Low         |
 | webpack             | 4.44.2  ❯  5.24.2 | BIG change                                    | Medium      |
