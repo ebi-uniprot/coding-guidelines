@@ -9,6 +9,7 @@ A possible order might be:
  - components
  - hooks
  - utils (split by further groups if a lot)
+ - config
  - types
  - non-standard imports (`.scss` or others)
 
