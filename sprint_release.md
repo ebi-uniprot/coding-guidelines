@@ -4,7 +4,7 @@ On the main branch perform the following:
 2. Update dependencies ([see below](#upgrade-uniprots-package-dependencies) (including the just updated Franklin)). If an update has several breaking changes and requires too much effort, create a Jira instead and update the [table below](#list-of-currently-not-updated-dependencies)
 3. Update the coverage ([see below](#coverage-bump))
 4. Push the updated `main` to remote: `git push origin main`
-5. Tag a release, adding the list of implemented features and bug fixes (compiled in sprint review doc) ([see below](#tagging-a-new-release))
+5. Tag a release, adding the list of implemented features and bug fixes (compiled in sprint review doc) ([see below](#tag-a-new-release))
 6. Tell everyone it's ready 🎉
 
 ## Details
@@ -44,7 +44,7 @@ Bump the test coverage as to define a new reference for the new sprint:
 yarn coverage-bump
 ```
 
-### Tagging a new release
+### Tag a new release
 Tag the release with the relevant release notes https://github.com/ebi-uniprot/uniprot-website/releases
 - Draft a new release
 - Put the sprint goal as release title
