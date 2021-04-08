@@ -1,7 +1,7 @@
 # Franklin release
 
 Franklin releases can happen at anything  point in time.
-1. Merge feature branch into master
+1. Merge feature branch into main
 2. Update dependencies and push after running tests. If breaking change/too much effort, create relevant Jira(s). If in doubt ask for help.
 3. Bump franklin coverage
 4. Release the module: `yarn release`
@@ -18,8 +18,8 @@ Notes:
 
 Change to Franklin's directory, get the latest commits, and start upgrading
 ```
-git checkout master
-git pull origin master
+git checkout main
+git pull origin main
 yarn upgrade-interactive --latest
 ```
 
