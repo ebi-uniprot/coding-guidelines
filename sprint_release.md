@@ -33,6 +33,7 @@ yarn test
 | history             | 4.10.1  ❯  5.0.0  | Needs proper testing, coordinate with franklin| Medium      |
 | html-loader         | 1.3.2   ❯  2.1.2  | Relies on webpack update                      | Low         |
 | html-webpack-plugin | 4.5.1   ❯  5.2.0  | Relies on webpack update                      | Low         |
+| random              | 2.2.0   ❯  3.0.3  | Bug with [pending fix](https://github.com/transitive-bullshit/random/pull/27) | Low  |
 | sass-loader         | 10.1.1  ❯  11.0.1 | Incompatible with current Webpack version     | Low         |
 | webpack             | 4.44.2  ❯  5.24.2 | BIG change                                    | Medium      |
 | webpack-cli         | 3.3.12  ❯  4.5.0  | BIG change                                    | Medium      |
