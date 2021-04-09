@@ -35,6 +35,7 @@ yarn test
 | html-webpack-plugin | 4.5.1   ❯  5.2.0  | Relies on webpack update                      | Low         |
 | random              | 2.2.0   ❯  3.0.3  | Bug with [pending fix](https://github.com/transitive-bullshit/random/pull/27) | Low  |
 | sass-loader         | 10.1.1  ❯  11.0.1 | Incompatible with current Webpack version     | Low         |
+| storybook           | 6.1.21  ❯  6.2.7  | Causes infinite loop of building (see [jira](https://www.ebi.ac.uk/panda/jira/browse/TRM-25804) for details)     | Low         |
 | webpack             | 4.44.2  ❯  5.24.2 | BIG change                                    | Medium      |
 | webpack-cli         | 3.3.12  ❯  4.5.0  | BIG change                                    | Medium      |
 
