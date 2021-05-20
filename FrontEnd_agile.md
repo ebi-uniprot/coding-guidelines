@@ -4,7 +4,6 @@
 Every sprint, a different team member is responsible for the sprint review demo. The current rota is:
 
 * [Daniel Rice](https://github.com/dlrice)
-* [Mahdi Mahmoudy](https://github.com/its-mahdi)
 * [Xavier Watkins](https://github.com/xwatkins)
 * [Aurélien Luciani](https://github.com/aurel-l)
 
