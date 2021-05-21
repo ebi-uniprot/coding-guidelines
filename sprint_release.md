@@ -34,13 +34,9 @@ yarn test
 | html-loader         | 1.3.2   ❯  2.1.2  | Relies on webpack update                      | Low         |
 | html-webpack-plugin | 4.5.1   ❯  5.2.0  | Relies on webpack update                      | Low         |
 | protvista-variation-adapter | 3.1.2   ❯  3.2.1  | Type issues (see [jira](https://www.ebi.ac.uk/panda/jira/browse/TRM-25822) for details)                      | Low         |
-| random              | 2.2.0   ❯  3.0.3  | Bug with [pending fix](https://github.com/transitive-bullshit/random/pull/27) | Low  |
 | sass-loader         | 10.1.1  ❯  11.0.1 | Incompatible with current Webpack version     | Low         |
-| storybook           | 6.1.21  ❯  6.2.7  | Causes infinite loop of building (see [jira](https://www.ebi.ac.uk/panda/jira/browse/TRM-25804) for details)     | Low         |
 | webpack             | 4.44.2  ❯  5.24.2 | BIG change                                    | Medium      |
 | webpack-cli         | 3.3.12  ❯  4.5.0  | BIG change                                    | Medium      |
-| react-markdown      | 5.0.3   ❯  6.0.1  | Need to use rehypePlugins on top of it        | Low         |
-| p-map               | 4.0.0   ❯  5.0.0  | Loader issue                                  | Low         |
 
 ### Coverage bump
 Bump the test coverage as to define a new reference for the new sprint:
