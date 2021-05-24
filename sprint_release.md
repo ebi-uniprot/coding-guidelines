@@ -37,7 +37,8 @@ yarn test
 | sass-loader         | 10.1.1  ❯  11.0.1 | Incompatible with current Webpack version     | Low         |
 | webpack             | 4.44.2  ❯  5.24.2 | BIG change                                    | Medium      |
 | webpack-cli         | 3.3.12  ❯  4.5.0  | BIG change                                    | Medium      |
-|lit-html             | 1.3.0   ❯  1.4.1  | Needs to match the protvista-datatable version| Low         |
+| lit-html            | 1.3.0   ❯  1.4.1  | Needs to match the protvista-datatable version| Low         |
+| sass-loader         | 10.1.1  ❯  11.1.1 | Incompatible with current version of foundation| Low         |
 
 ### Coverage bump
 Bump the test coverage as to define a new reference for the new sprint:
