@@ -38,6 +38,7 @@ yarn test
 | webpack             | 4.44.2  ❯  5.24.2 | BIG change                                    | Medium      |
 | webpack-cli         | 3.3.12  ❯  4.5.0  | BIG change                                    | Medium      |
 | lit-html            | 1.3.0   ❯  1.4.1  | Needs to match the protvista-datatable version| Low         |
+| sass                | 1.32.13 ❯  1.34.0 | Incompatible with current version of foundation| Low         |
 | sass-loader         | 10.1.1  ❯  11.1.1 | Incompatible with current version of foundation| Low         |
 
 ### Coverage bump
