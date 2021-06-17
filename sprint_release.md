@@ -31,8 +31,6 @@ yarn test
 | d3                  | 5.16.0  ❯  6.5.0  | Breaking changes imcompatible with Nightingale| Low         |
 | @types/d3           | 5.16.3  ❯  6.3.0  | Breaking changes imcompatible with Nightingale| Low         |
 | history             | 4.10.1  ❯  5.0.0  | Needs proper testing, coordinate with franklin| Medium      |
-| html-loader         | 1.3.2   ❯  2.1.2  | Relies on webpack update                      | Low         |
-| html-webpack-plugin | 4.5.1   ❯  5.2.0  | Relies on webpack update                      | Low         |
 | protvista-variation-adapter | 3.1.2   ❯  3.2.1  | Type issues (see [jira](https://www.ebi.ac.uk/panda/jira/browse/TRM-25822) for details)                      | Low         |
 | lit-html            | 1.3.0   ❯  1.4.1  | Needs to match the protvista-datatable version| Low         |
 | sass                | 1.32.13 ❯  1.34.0 | Incompatible with current version of foundation| Low         |
