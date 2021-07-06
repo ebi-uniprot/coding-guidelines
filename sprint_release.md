@@ -33,8 +33,8 @@ yarn test
 | history             | 4.10.1  ❯  5.0.0  | Needs proper testing, coordinate with franklin| Medium      |
 | protvista-variation-adapter | 3.1.2   ❯  3.2.1  | Type issues (see [jira](https://www.ebi.ac.uk/panda/jira/browse/TRM-25822) for details)                      | Low         |
 | lit-html            | 1.3.0   ❯  1.4.1  | Needs to match the protvista-datatable version| Low         |
-| sass                | 1.32.13 ❯  1.34.0 | Incompatible with current version of foundation| Low         |
-| sass-loader         | 10.1.1  ❯  11.1.1 | Incompatible with current version of foundation| Low         |
+| sass                | 1.32.13 ❯  1.34.0 | Incompatible with current version of foundation (Using / for division is deprecated)| Low         |
+| sass-loader         | 10.1.1  ❯  11.1.1 | Incompatible with current version of foundation (Using / for division is deprecated)| Low         |
 
 ### Coverage bump
 Bump the test coverage as to define a new reference for the new sprint:
