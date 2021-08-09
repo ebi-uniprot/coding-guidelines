@@ -45,6 +45,7 @@ yarn coverage-bump
 ### Tag a new release
 Tag the release with the relevant release notes https://github.com/ebi-uniprot/uniprot-website/releases
 - To tag on your local machine: `git tag -a v<version> -m "v<version>"` eg `git tag -a v0.18-alpha -m "v0.18-alpha"`
+- To push (annotated) tags: `git push --follow-tags origin main`
 - Draft a new release
 - Put the sprint goal as release title
 - Write the list of new features/bug fixes (already compiled in sprint review document)
