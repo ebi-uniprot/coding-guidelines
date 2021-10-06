@@ -6,6 +6,7 @@ On the main branch perform the following:
 4. Push the updated `main` to remote: `git push origin main`
 5. Tag a release, adding the list of implemented features and bug fixes (compiled in sprint review doc) ([see below](#tag-a-new-release))
 6. Tell everyone it's ready 🎉
+7. Delete stale branches upon confirmation from the team 🧹
 
 ## Details
 
@@ -46,3 +47,6 @@ Tag the release with the relevant release notes https://github.com/ebi-uniprot/u
 - Draft a new release
 - Put the sprint goal as release title
 - Write the list of new features/bug fixes (already compiled in sprint review document)
+
+### Delete stale branches
+Check in github if there any stale branches within both uniprot and franklin and if so, inform the team via slack that you will delete them unless anybody has objections. If all OK, delete the branches.
