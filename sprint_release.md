@@ -27,11 +27,16 @@ yarn test
 ```
 
 ### List of currently not updated dependencies
-| Name                | Version           | Reason                                        | Priority    |
-| ------------------- | ----------------- | --------------------------------------------- | ----------- |
-| d3                  | 5.16.0  ❯  6.5.0  | Breaking changes imcompatible with Nightingale| Low         |
-| @types/d3           | 5.16.3  ❯  6.3.0  | Breaking changes imcompatible with Nightingale| Low         |
-| history             | 4.10.1  ❯  5.0.0  | Needs proper testing, coordinate with franklin| Medium      |
+| Name                          | Version           | Reason                                        | Priority    |
+| ----------------------------- | ----------------- | --------------------------------------------- | ----------- |
+| d3                            | 5.16.0  ❯  7.2.1  | Breaking changes imcompatible with Nightingale| Low         |
+| @types/d3                     | 5.16.3  ❯  7.1.0  | Breaking changes imcompatible with Nightingale| Low         |
+| history                       | 4.10.1  ❯  5.1.0  | Needs proper testing, coordinate with franklin| Medium      |
+| react-router-dom              | 5.0.4   ❯  6.0.2  | Link update with history, needs testing       | Medium      |
+| @svgr/webpack                 | 5.5.0   ❯  6.1.1  | Update alongside SVG optimisation in webpack  | Low         |
+| @storybook/*                  | 6.3.*   ❯  6.4.9  | Issue with router, linked to react-router-dom?| Low         |
+| react-beautiful-dnd-test-utils| 3.2.1   ❯  4.1.0  | API change for makeDnd()                      | Low         |
+| axios                         | 0.22.0  ❯  0.24.0 | Type changes, mught be easy but needs checking| Low         |
 
 
 ### Coverage bump
