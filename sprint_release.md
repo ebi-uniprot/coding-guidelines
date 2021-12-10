@@ -36,7 +36,7 @@ yarn test
 | @svgr/webpack                 | 5.5.0   ❯  6.1.1  | Update alongside SVG optimisation in webpack  | Low         |
 | @storybook/*                  | 6.3.*   ❯  6.4.9  | Issue with router, linked to react-router-dom?| Low         |
 | react-beautiful-dnd-test-utils| 3.2.1   ❯  4.1.0  | API change for makeDnd()                      | Low         |
-| axios                         | 0.22.0  ❯  0.24.0 | Type changes, mught be easy but needs checking| Low         |
+| axios                         | 0.22.0  ❯  0.24.0 | Type changes, might be easy but needs checking| Low         |
 
 
 ### Coverage bump
